@@ -1,0 +1,30 @@
+.frmlogin {
+    margin-top: 100px;
+    background: #00a7ff;
+
+}
+
+.frmhabit {
+    margin-top: 70px;
+    color: #081b80;
+    background: #b2e84a;
+}
+
+.frmreser {
+    margin-top: 70px;
+    color: #081b80;
+    background: #baed95;
+}
+
+
+.frmtrabajador{
+    margin-top: 70px;
+    color: #081b80;
+    background: #b0e8e2;
+}
+
+.frmcli{
+    margin-top: 70px;
+    color: #081b80;
+    background: #f2a2b4;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservas</title>
+
+    <link rel="stylesheet" href="../recursos/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../recursos/css/estilos.css">
+
+    <script src="../recursos/Jquery/jquery-3.2.1.min.js"></script>
+    <script src="../recursos/bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+
+
+    <div class="container">
+    <div>
+     <div class="panel panel-default row frmreser">
+                  <div  class="">
+    <h3 class="text-center"> Registro De reservas</h3>
+    <br>
+    <br>
+   <form >
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Habiación</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese número de Habitación">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Cliente</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese Cliente">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Trabajador</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese Trabajador">
+  </div>
+
+
+
+            <div class="form-group">
+               <label for="exampleSelect1">Fecha Reserva</label>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+
+        <div class="form-group">
+               <label for="exampleSelect1">Fecha Ingresa</label>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+
+        <div class="form-group">
+               <label for="exampleSelect1">Fecha Salida</label>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+
+
+  <div class="form-group">
+    <label for="exampleSelect1">Tipo Rerserva</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>Reserva</option>
+      <option>Alquier</option>
+    </select>
+  </div>
+
+
+
+
+
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Costo</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese Precio">
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleSelect1">Estado</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>Alquiler</option>
+      <option>Pagada</option>
+      <option>Anulada</option>
+
+    </select>
+  </div>
+
+
+  <br>
+  <br>
+ <div>
+    <button type="submit" class="btn btn-info">Guardar</button>
+
+
+ </div>
+
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+</body>
+</html>
